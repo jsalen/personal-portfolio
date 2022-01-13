@@ -1,3 +1,4 @@
+import { Layout } from './components/Layout'
 import { Header } from './containers/Header'
 import { Intro } from './containers/Intro'
 
@@ -5,7 +6,9 @@ function App() {
   return (
     <>
       <Header />
-      <Intro />
+      <Layout>
+        <Intro />
+      </Layout>
     </>
   )
 }
