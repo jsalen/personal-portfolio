@@ -11,7 +11,9 @@ export const Container = styled.section`
 
 export const Figure = styled.figure`
   & img {
-    width: 189px;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
     object-fit: cover;
     border: 5px solid #645dd7;
     border-radius: 50%;
@@ -33,7 +35,7 @@ export const Description = styled.article`
   }
 
   & p {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     line-height: 3rem;
     text-align: center;
   }
