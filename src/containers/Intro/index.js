@@ -1,5 +1,7 @@
 import { Container, Description, Figure } from './styles'
-import profilePic from '../../statics/images/profile.png'
+
+const profilePic =
+  'https://salen-portfolio.s3.us-east-2.amazonaws.com/profile.png'
 
 export const Intro = () => {
   return (
