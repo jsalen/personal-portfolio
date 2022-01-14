@@ -9,6 +9,8 @@ export const works = [
       github: 'https://github.com/jsalen/sales-inventory-frontend',
       demo: 'https://jsalen.github.io/sales-inventory-frontend/',
     },
+    image:
+      'https://salen-portfolio.s3.us-east-2.amazonaws.com/sales-inventory.png',
   },
   {
     id: 1,
@@ -20,6 +22,7 @@ export const works = [
       github: 'https://github.com/jsalen/react-todo-list',
       demo: 'https://react-todo-list-jsalen.vercel.app/',
     },
+    image: 'https://salen-portfolio.s3.us-east-2.amazonaws.com/todo-list.png',
   },
   {
     id: 2,
@@ -39,5 +42,6 @@ export const works = [
       github: 'https://github.com/jsalen/react-ecommerce',
       demo: 'https://salen-store.vercel.app/',
     },
+    image: 'https://salen-portfolio.s3.us-east-2.amazonaws.com/salen-store.png',
   },
 ]

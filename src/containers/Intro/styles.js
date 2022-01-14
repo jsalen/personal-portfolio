@@ -33,9 +33,9 @@ export const Description = styled.article`
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
 
   & h1 {
+    margin-bottom: 1.2rem;
     font-size: 3.1rem;
     line-height: 3.6rem;
     font-weight: 700;

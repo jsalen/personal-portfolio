@@ -1,9 +1,9 @@
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 import { Card, Footer } from './styles'
 
-export const WorkCard = ({ name, description, tools, links }) => {
+export const WorkCard = ({ name, description, tools, links, image }) => {
   return (
-    <Card>
+    <Card image={image}>
       <h2>{name}</h2>
       <p>{description}</p>
       <Footer>

@@ -15,6 +15,7 @@ export const Work = () => {
             description={work.description}
             tools={work.tools}
             links={work.links}
+            image={work.image}
           />
         ))}
       </CardContainer>
