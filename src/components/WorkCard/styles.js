@@ -38,6 +38,10 @@ export const Card = styled.article`
     background-size: cover;
     filter: opacity(0.3) blur(1px);
   }
+
+  &:hover {
+    transform: translateY(-10px);
+  }
 `
 
 export const Footer = styled.footer`
@@ -53,6 +57,7 @@ export const Footer = styled.footer`
 
     & li {
       margin-right: 1.2rem;
+      letter-spacing: 1.2px;
     }
   }
 
