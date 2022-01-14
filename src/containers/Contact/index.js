@@ -11,7 +11,7 @@ export const Contact = () => {
         open. If you are interested in having a chat I'd love to get in touch
         with you.
       </p>
-      <Button>Send Email</Button>
+      <Button>Send Email!</Button>
     </Container>
   )
 }
