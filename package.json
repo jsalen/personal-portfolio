@@ -4,7 +4,6 @@
   "author": "Joseph Salen <jsalen.91@gmail.com>",
   "license": "MIT",
   "version": "0.1.0",
-  "private": true,
   "main": "src/index.js",
   "engines": {
     "node": "16.x"
