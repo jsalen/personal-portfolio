@@ -2,6 +2,7 @@ import { Layout } from './components/Layout'
 import { About } from './containers/About'
 import { Header } from './containers/Header'
 import { Intro } from './containers/Intro'
+import { Work } from './containers/Work'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Layout>
         <Intro />
         <About />
+        <Work />
       </Layout>
     </>
   )
