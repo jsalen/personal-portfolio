@@ -20,8 +20,10 @@ export const About = () => {
         </p>
         <p>
           I've been using awesome platform like{' '}
-          <a href='https://www.platzi.com/'>Platzi</a> among others to grind my
-          road into learning Frontend Development.
+          <a href='https://www.platzi.com/' target='_blank' rel='noreferrer'>
+            Platzi
+          </a>{' '}
+          among others to grind my road into learning Frontend Development.
         </p>
         <p>Here are some of the technologies I've been working recently:</p>
         <ul>

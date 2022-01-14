@@ -13,10 +13,10 @@ export const WorkCard = ({ name, description, tools, links }) => {
           ))}
         </ul>
         <div>
-          <a href={links.github}>
+          <a href={links.github} target='_blank' rel='noreferrer'>
             <FaGithub />
           </a>
-          <a href={links.demo}>
+          <a href={links.demo} target='_blank' rel='noreferrer'>
             <FaExternalLinkAlt />
           </a>
         </div>

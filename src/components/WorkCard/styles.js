@@ -26,20 +26,23 @@ export const Footer = styled.footer`
   & ul {
     margin: 1.2rem 0;
     display: flex;
-    gap: 1.2rem;
     flex-wrap: wrap;
     list-style: none;
     font-size: 1.2rem;
-    line-height: 1.6rem;
+    line-height: 2.2rem;
     font-weight: 300;
+
+    & li {
+      margin-right: 1.2rem;
+    }
   }
 
   & div {
     display: flex;
-    gap: 1.2rem;
   }
 
   & svg {
+    margin-right: 1.2rem;
     font-size: 2.2rem;
     color: #f8f7ff;
     transition: color 0.3s ease;

@@ -3,19 +3,19 @@ import styled, { css } from 'styled-components'
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
-  gap: 32px;
 `
 
 export const Link = styled.a`
   ${(props) =>
     props.responsive &&
     css`
-      display: none;
       width: 25px;
       height: 25px;
+      margin-right: 2.4rem;
+      display: none;
       font-size: 3rem;
-      cursor: pointer;
       color: #645dd7;
+      cursor: pointer;
       text-decoration: none;
       transition: color 0.2s;
 

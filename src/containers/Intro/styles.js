@@ -2,11 +2,19 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
   width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
   height: auto;
+  min-height: 500px;
   padding: 7rem 1.6rem;
   display: grid;
   grid-template-rows: 240px 1fr;
   place-items: center;
+
+  @media (min-width: 960px) {
+    grid-template-rows: auto;
+    grid-template-columns: 240px 1fr;
+  }
 `
 
 export const Figure = styled.figure`
