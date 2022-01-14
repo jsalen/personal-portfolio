@@ -22,7 +22,7 @@ export const About = () => {
           I've been using awesome platforms like{' '}
           <a href='https://www.platzi.com/' target='_blank' rel='noreferrer'>
             Platzi
-          </a>
+          </a>{' '}
           among others to grind my road into learning Frontend Development with
           ReactJS.
         </p>
