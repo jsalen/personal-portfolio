@@ -10,6 +10,7 @@ export const Btn = styled.a`
   color: #645dd7;
   font-size: 1.6rem;
   font-weight: bold;
+  text-decoration: none;
   border: 2px solid #645dd7;
   border-radius: 24px;
   background-color: #f8f7ff;

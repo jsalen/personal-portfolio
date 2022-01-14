@@ -22,7 +22,7 @@ export const Navigation = () => {
       >
         <FaGithub />
       </Link>
-      <Button>Contact me!</Button>
+      <Button>Send Email!</Button>
     </Nav>
   )
 }
