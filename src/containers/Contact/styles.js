@@ -23,7 +23,7 @@ export const Container = styled.section`
     line-height: 2.2rem;
   }
 
-  & button {
+  & a {
     width: 80%;
     max-width: 280px;
   }

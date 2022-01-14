@@ -1,21 +1,27 @@
 import { Button } from '../Button'
 
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
-import { Nav } from './styles'
+import { Link, Nav } from './styles'
 
 export const Navigation = () => {
   return (
     <Nav>
-      <a
+      <Link
         href='https://www.linkedin.com/in/salenjs/'
         target='_blank'
         rel='noreferrer'
+        responsive
       >
         <FaLinkedin />
-      </a>
-      <a href='https://github.com/jsalen' target='_blank' rel='noreferrer'>
+      </Link>
+      <Link
+        href='https://github.com/jsalen'
+        target='_blank'
+        rel='noreferrer'
+        responsive
+      >
         <FaGithub />
-      </a>
+      </Link>
       <Button>Contact me!</Button>
     </Nav>
   )

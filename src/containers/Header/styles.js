@@ -11,7 +11,7 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   background-color: #f8f7ff;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 `

@@ -5,7 +5,7 @@ import { Container } from './styles'
 export const Header = () => {
   return (
     <Container>
-      <p>icon</p>
+      <p>salen.js</p>
       <Navigation />
     </Container>
   )
