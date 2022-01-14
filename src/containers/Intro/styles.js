@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
   width: 100%;
-  height: calc(100vh - 60px);
-  padding: 1.2rem 1.6rem 0;
+  height: auto;
+  padding: 7rem 1.6rem;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 240px 1fr;
   place-items: center;
 `
 
