@@ -8,6 +8,7 @@ export const Card = styled.article`
   color: #f8f7ff;
   border-radius: 8px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  z-index: 1;
   transition: all 0.3s ease-in-out;
 
   & h2 {

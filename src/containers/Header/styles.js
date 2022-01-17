@@ -14,4 +14,5 @@ export const Container = styled.header`
   font-size: 1.8rem;
   background-color: #f8f7ff;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  z-index: 3;
 `
