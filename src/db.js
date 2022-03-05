@@ -3,7 +3,7 @@ export const works = [
     id: 0,
     name: 'Inventory and Sales',
     description:
-      'Web that handles a global state with Redux to control the information related to customers, sales and products.',
+      'Application that handles a global state with Redux to control the information related to customers, sales and products.',
     tools: ['VSCode', 'JS', 'React', 'Redux', 'Styled-Components'],
     links: {
       github: 'https://github.com/jsalen/sales-inventory-frontend',
@@ -43,5 +43,17 @@ export const works = [
       demo: 'https://salen-store.vercel.app/',
     },
     image: 'https://salen-portfolio.s3.us-east-2.amazonaws.com/salen-store.png',
+  },
+  {
+    id: 3,
+    name: 'Hacker News',
+    description:
+      'Computer and Science news extracted from HackerNews API provided by Algolia. User can filter news by category.',
+    tools: ['VSCode', 'React', 'Redux Toolkit', 'Axios', 'TypeScript'],
+    links: {
+      github: 'https://github.com/jsalen/hacker-news',
+      demo: 'https://kind-yonath-a25ce1.netlify.app',
+    },
+    image: 'https://salen-portfolio.s3.us-east-2.amazonaws.com/hn.png',
   },
 ]
