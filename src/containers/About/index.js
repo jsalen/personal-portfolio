@@ -33,9 +33,12 @@ export const About = () => {
           <li>SASS</li>
           <li>JavaScript</li>
           <li>React.js</li>
+          <li>TypeScript</li>
+          <li>Style-Components</li>
           <li>Node.js</li>
           <li>Express</li>
-          <li>Style-Components</li>
+          <li>MongoDB</li>
+          <li>PosgreSQL</li>
         </ul>
       </Content>
     </Container>
