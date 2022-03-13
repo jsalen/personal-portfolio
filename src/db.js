@@ -14,15 +14,15 @@ export const works = [
   },
   {
     id: 1,
-    name: 'TodoList',
+    name: 'Hacker News',
     description:
-      'TodoList made with React, with this project I learned about proper Render Pattern and Component Composition',
-    tools: ['VSCode', 'JS', 'React', 'Context API', 'Styled-Components'],
+      'Computer and Science news extracted from HackerNews API provided by Algolia. User can filter news by category.',
+    tools: ['VSCode', 'React', 'Redux Toolkit', 'Axios', 'TypeScript'],
     links: {
-      github: 'https://github.com/jsalen/react-todo-list',
-      demo: 'https://react-todo-list-jsalen.vercel.app/',
+      github: 'https://github.com/jsalen/hacker-news',
+      demo: 'https://kind-yonath-a25ce1.netlify.app',
     },
-    image: 'https://salen-portfolio.s3.us-east-2.amazonaws.com/todo-list.png',
+    image: 'https://salen-portfolio.s3.us-east-2.amazonaws.com/hn.png',
   },
   {
     id: 2,
@@ -46,14 +46,14 @@ export const works = [
   },
   {
     id: 3,
-    name: 'Hacker News',
+    name: 'TodoList',
     description:
-      'Computer and Science news extracted from HackerNews API provided by Algolia. User can filter news by category.',
-    tools: ['VSCode', 'React', 'Redux Toolkit', 'Axios', 'TypeScript'],
+      'TodoList made with React, with this project I learned about proper Render Pattern and Component Composition',
+    tools: ['VSCode', 'JS', 'React', 'Context API', 'Styled-Components'],
     links: {
-      github: 'https://github.com/jsalen/hacker-news',
-      demo: 'https://kind-yonath-a25ce1.netlify.app',
+      github: 'https://github.com/jsalen/react-todo-list',
+      demo: 'https://react-todo-list-jsalen.vercel.app/',
     },
-    image: 'https://salen-portfolio.s3.us-east-2.amazonaws.com/hn.png',
+    image: 'https://salen-portfolio.s3.us-east-2.amazonaws.com/todo-list.png',
   },
 ]
