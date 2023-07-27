@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Btn = styled.a`
   width: 100%;
@@ -21,4 +21,4 @@ export const Btn = styled.a`
     background-color: #645dd7;
     color: #f8f7ff;
   }
-`
+`;

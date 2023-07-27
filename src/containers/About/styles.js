@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
@@ -17,7 +17,7 @@ export const Container = styled.section`
     font-weight: 700;
     text-align: center;
   }
-`
+`;
 
 export const Content = styled.article`
   width: 100%;
@@ -57,4 +57,4 @@ export const Content = styled.article`
     background-color: #f8f7ff;
     border-radius: 20px;
   }
-`
+`;

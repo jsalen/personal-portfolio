@@ -1,7 +1,7 @@
-import { WorkCard } from '../../components/WorkCard'
+import { WorkCard } from "../../components/WorkCard";
 
-import { works } from '../../db'
-import { CardContainer, Container } from './styles'
+import { works } from "../../db";
+import { CardContainer, Container } from "./styles";
 
 export const Work = () => {
   return (
@@ -20,5 +20,5 @@ export const Work = () => {
         ))}
       </CardContainer>
     </Container>
-  )
-}
+  );
+};

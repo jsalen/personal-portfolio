@@ -1,6 +1,6 @@
-import { Button } from '../../components/Button'
+import { Button } from "../../components/Button";
 
-import { Container } from './styles'
+import { Container } from "./styles";
 
 export const Contact = () => {
   return (
@@ -13,5 +13,5 @@ export const Contact = () => {
       </p>
       <Button>Send Email!</Button>
     </Container>
-  )
-}
+  );
+};

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
@@ -16,7 +16,7 @@ export const Container = styled.section`
     margin-bottom: 2.4rem;
     font-size: 3.2rem;
     font-weight: 700;
-    text-align: center;value
+    text-align: center;
   }
 
   & p {
@@ -30,4 +30,4 @@ export const Container = styled.section`
     width: 80%;
     max-width: 220px;
   }
-`
+`;

@@ -1,9 +1,9 @@
-import { Layout } from './components/Layout'
-import { About } from './containers/About'
-import { Contact } from './containers/Contact'
-import { Header } from './containers/Header'
-import { Intro } from './containers/Intro'
-import { Work } from './containers/Work'
+import { Layout } from "./components/Layout";
+import { About } from "./containers/About";
+import { Contact } from "./containers/Contact";
+import { Header } from "./containers/Header";
+import { Intro } from "./containers/Intro";
+import { Work } from "./containers/Work";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Contact />
       </Layout>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

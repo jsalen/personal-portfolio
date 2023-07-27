@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
@@ -12,7 +12,7 @@ export const Container = styled.section`
     text-align: center;
     margin-bottom: 4rem;
   }
-`
+`;
 
 export const CardContainer = styled.div`
   width: 100%;
@@ -20,4 +20,4 @@ export const CardContainer = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(280px, 420px));
   justify-content: center;
   grid-gap: 2.4rem;
-`
+`;

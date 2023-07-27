@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Card = styled.article`
   position: relative;
@@ -27,7 +27,7 @@ export const Card = styled.article`
   }
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -43,7 +43,7 @@ export const Card = styled.article`
   &:hover {
     transform: translateY(-10px);
   }
-`
+`;
 
 export const Footer = styled.footer`
   position: relative;
@@ -77,4 +77,4 @@ export const Footer = styled.footer`
       color: #b3fffc;
     }
   }
-`
+`;
