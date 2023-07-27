@@ -5,9 +5,4 @@ export const Main = styled.main`
   margin-top: 80px;
   display: flex;
   flex-direction: column;
-  
-  & > section {
-    width: 100%;
-    min-height: calc(100vh - 80px);
-  }
 `
