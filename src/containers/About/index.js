@@ -9,6 +9,7 @@ import { DiJavascript } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
 import {
   SiContentful,
+  SiJest,
   SiMongodb,
   SiStyledcomponents,
   SiTypescript,
@@ -89,6 +90,9 @@ export const About = () => {
           </li>
           <li>
             <FaAlgolia /> Algolia
+          </li>
+          <li>
+            <SiJest /> Jest
           </li>
         </ul>
       </Content>
