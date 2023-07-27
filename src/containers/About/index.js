@@ -3,7 +3,7 @@ import { Container, Content } from './styles'
 export const About = () => {
   return (
     <Container>
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <Content>
         <p>
           Hi there! 👋 my name is <span>Joseph Salen</span>, I'm a React.js

@@ -11,7 +11,7 @@ export const Container = styled.section`
   );
   color: #f8f7ff;
 
-  & h1 {
+  & h2 {
     margin-bottom: 4rem;
     font-size: 3.2rem;
     font-weight: 700;

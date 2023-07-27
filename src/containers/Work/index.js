@@ -6,7 +6,7 @@ import { CardContainer, Container } from './styles'
 export const Work = () => {
   return (
     <Container>
-      <h1>My Recent Work</h1>
+      <h2>My Recent Work</h2>
       <CardContainer>
         {works.map((work) => (
           <WorkCard

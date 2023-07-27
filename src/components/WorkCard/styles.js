@@ -16,7 +16,7 @@ export const Card = styled.article`
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 
   & p {
@@ -64,10 +64,11 @@ export const Footer = styled.footer`
 
   & div {
     display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
   }
 
   & svg {
-    margin-right: 1.2rem;
     font-size: 2.2rem;
     color: #f8f7ff;
     transition: color 0.3s ease;

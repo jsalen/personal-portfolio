@@ -6,7 +6,7 @@ export const Container = styled.section`
   background: #f8f7ff;
   color: #645dd7;
 
-  & h1 {
+  & h2 {
     font-size: 3.2rem;
     font-weight: 700;
     text-align: center;
