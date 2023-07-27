@@ -1,4 +1,10 @@
-import { FaCss3Alt, FaHtml5, FaReact, FaNodeJs } from "react-icons/fa";
+import {
+  FaAlgolia,
+  FaCss3Alt,
+  FaHtml5,
+  FaReact,
+  FaNodeJs,
+} from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
 import {
@@ -64,7 +70,7 @@ export const About = () => {
             <SiTypescript /> TypeScript
           </li>
           <li>
-            <SiStyledcomponents /> Style-Components
+            <SiStyledcomponents /> Styled-Components
           </li>
           <li>
             <FaNodeJs /> Node.js
@@ -80,6 +86,9 @@ export const About = () => {
           </li>
           <li>
             <SiContentful /> Contentful CMS
+          </li>
+          <li>
+            <FaAlgolia /> Algolia
           </li>
         </ul>
       </Content>

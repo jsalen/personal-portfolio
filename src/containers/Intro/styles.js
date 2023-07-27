@@ -40,12 +40,13 @@ export const Container = styled.section`
 export const Figure = styled.figure`
   width: fit-content;
   animation: ${rotateRightAnimation} 1s ease-in-out forwards;
+  animation-delay: 1.5s;
   border: 5px solid #645dd7;
   border-radius: 8px;
 
   & img {
     animation: ${rotateLeftAnimation} 1s forwards;
-    animation-delay: 1s;
+    animation-delay: 2.5s;
     width: 100%;
     max-width: 340px;
     height: auto;
