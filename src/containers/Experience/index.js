@@ -2,7 +2,12 @@ import { FaAlgolia, FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa";
 import { Container } from "./styles";
 import { DiJavascript } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiContentful, SiStyledcomponents, SiTypescript } from "react-icons/si";
+import {
+  SiContentful,
+  SiJest,
+  SiStyledcomponents,
+  SiTypescript,
+} from "react-icons/si";
 
 export const Experience = () => {
   return (
@@ -68,6 +73,9 @@ export const Experience = () => {
               </li>
               <li>
                 <FaAlgolia /> Algolia
+              </li>
+              <li>
+                <SiJest /> Jest
               </li>
             </ul>
           </li>
