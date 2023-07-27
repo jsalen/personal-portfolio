@@ -22,20 +22,23 @@ export const Container = styled.section`
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  height: auto;
-  min-height: 500px;
-  padding: 7rem 1.6rem;
-  display: grid;
-  grid-template-rows: 240px 1fr;
-  place-items: center;
+  padding: 12rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
 
   @media (min-width: 1024px) {
+    display: grid;
+    place-items: center;
     grid-template-rows: auto;
     grid-template-columns: 1fr 45%;
+    padding: 15rem 1.6rem;
   }
 `
 
 export const Figure = styled.figure`
+  width: fit-content;
   animation: ${rotateRightAnimation} 1s ease-in-out forwards;
   border: 5px solid #645dd7;
   border-radius: 8px;
