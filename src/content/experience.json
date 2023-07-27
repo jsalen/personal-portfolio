@@ -1,0 +1,56 @@
+{
+  "en": {
+    "heading": "Work Experience",
+    "experienceList": [
+      {
+        "companyNameCopy": "Company Name:",
+        "companyName": "Apply Digital",
+        "companyLink": "https://www.applydigital.com/",
+        "datesCopy": "Dates:",
+        "dates": "Mar 2022 - Jul 2023",
+        "titleCopy": "Title:",
+        "title": "Frontend Engineer",
+        "responsabilitiesCopy": "Responsabilities:",
+        "responsabilities": [
+          {
+            "description": "Developed and maintained web applications using HTML, CSS and React"
+          },
+          {
+            "description": "Implemented UIs given by Design team, ensuring that it met all requirements (visually and functionally)"
+          },
+          {
+            "description": "Worked with a headless CMS and a backend team to integrate UI components with APIs and databases"
+          }
+        ]
+      }
+    ],
+    "technologiesSubheading": "Technologies used:"
+  },
+  "es": {
+    "heading": "Experiencia Laboral",
+    "experienceList": [
+      {
+        "companyNameCopy": "Nombre de la Compañía:",
+        "companyName": "Apply Digital",
+        "companyLink": "https://www.applydigital.com/",
+        "datesCopy": "Dates:",
+        "dates": "Mar 2022 - Jul 2023",
+        "titleCopy": "Título:",
+        "title": "Frontend Engineer",
+        "responsabilitiesCopy": "Responsabilidades:",
+        "responsabilities": [
+          {
+            "description": "Desarrollo y mantenimiento de aplicaciones web usando HTML, CSS y React"
+          },
+          {
+            "description": "Implementé interfaces de usuario proporcionadas por el equipo de diseño, asegurando que cumpliera con todos los requisitos (visuales y funcionales)"
+          },
+          {
+            "description": "Trabajé con un headless CMS y un equipo de backend para integrar componentes de interfaz de usuario con APIs y bases de datos"
+          }
+        ]
+      }
+    ],
+    "technologiesSubheading": "Tecnologías usadas:"
+  }
+}

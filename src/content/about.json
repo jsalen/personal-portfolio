@@ -1,0 +1,32 @@
+{
+  "en": {
+    "heading": "About Me",
+    "body": [
+      {
+        "content": "I am a dedicated Frontend Engineer with 3 years of experience. My most recent company was Apply Digital, where I worked for over a year. I specialize in Frontend development with React using the NextJS framework. I have a background as IT Technician since 2016. In March 2020, I made a seamless transition into the world of Frontend development. This ignited my passion for creating exceptional user experiences."
+      },
+      {
+        "content": "My expertise lies in crafting robust and intuitive frontend solutions using Next.js. I excel in building reusable components and implementing the principles of atomic design. I have a strong command over integrating headless CMS, with Contentful being my go-to choice. I am continuously seeking growth and consistently explore new tools and frameworks to enhance my development prowess. What sets me apart in my field is my unwavering dedication to delivering top-notch products to my clients"
+      },
+      {
+        "content": "I bring a high level of enthusiasm and a customer-centric approach to every project, ensuring that the end result not only meets but exceeds expectations. I take pride in my ability to collaborate effectively with cross-functional teams and assist others whenever needed. Looking ahead, I have ambitious aspirations to evolve into a Full Stack Developer. While my current focus lies in mastering Frontend Development."
+      }
+    ],
+    "listHeading": "Here are some of the technologies I've been working recently:"
+  },
+  "es": {
+    "heading": "Sobre mi",
+    "body": [
+      {
+        "content": "Soy un dedicado Frontend Engineer con 3 años de experiencia. Mi trabajo más reciente fue en Apply Digital, donde trabajé durante más de un año. Me especializo en desarrollo Frontend con React usando el framework NextJS. Tengo experiencia como técnico de TI desde 2016. En marzo de 2020, hice una transición perfecta al mundo del desarrollo Frontend. Esto encendió mi pasión por crear experiencias de usuario excepcionales."
+      },
+      {
+        "content": "Mi experiencia radica en la creación de soluciones de interfaz de usuario robustas e intuitivas utilizando Next.js. Me destaco en la construcción de componentes reutilizables y en la implementación de los principios del diseño atómico. Tengo un fuerte dominio sobre la integración de headless CMS, siendo Contentful mi opción preferida. Busco continuamente el crecimiento y exploro constantemente nuevas herramientas y marcos para mejorar mi destreza en el desarrollo. Lo que me distingue en mi campo es mi dedicación inquebrantable para ofrecer productos de primera a mis clientes."
+      },
+      {
+        "content": "Aporto un alto nivel de entusiasmo y un enfoque centrado en el cliente para cada proyecto, asegurándome de que el resultado final no solo cumpla sino que supere las expectativas. Me enorgullezco de mi capacidad para colaborar de manera efectiva con equipos multifuncionales y ayudar a otros cuando sea necesario. De cara al futuro, tengo aspiraciones ambiciosas de convertirme en un desarrollador Full Stack. Mientras que mi enfoque actual radica en dominar el Desarrollo Frontend."
+      }
+    ],
+    "listHeading": "Aquí están algunas de las tecnologías con las que he trabajado recientemente:"
+  }
+}

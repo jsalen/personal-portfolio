@@ -1,0 +1,14 @@
+{
+  "en": {
+    "heading": "React.js Front-end Developer",
+    "description": "I build beautiful interfaces with the help of React.js/Next.js/Typescript",
+    "button": "Contact me!",
+    "imageDescription": "Profile picture"
+  },
+  "es": {
+    "heading": "Desarrollador Front-end React.js",
+    "description": "Me especializo en el desarrollo de geniales aplicaciones y sitios web con la ayuda de React.js, Next.js y Typescript",
+    "button": "¡Contáctame!",
+    "imageDescription": "Foto de perfil"
+  }
+}

@@ -1,17 +1,13 @@
 import { Button } from "../../components/Button";
-
+import contactContent from "../../content/contact.json";
 import { Container } from "./styles";
 
-export const Contact = () => {
+export const Contact = ({ locale }) => {
   return (
     <Container>
-      <h2>Get In Touch!</h2>
-      <p>
-        Currently I'm looking for work and new opportunities, my email is always
-        open. If you are interested in having a chat I'd love to get in touch
-        with you.
-      </p>
-      <Button>Contact me!</Button>
+      <h2>{contactContent[locale].heading}</h2>
+      <p>{contactContent[locale].description}</p>
+      <Button>{contactContent[locale].button}</Button>
     </Container>
   );
 };

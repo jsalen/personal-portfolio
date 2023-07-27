@@ -15,42 +15,18 @@ import {
   SiTypescript,
 } from "react-icons/si";
 import { PiFileSqlBold } from "react-icons/pi";
+import content from "../../content/about.json";
 import { Container, Content } from "./styles";
 
-export const About = () => {
+export const About = ({ locale }) => {
   return (
     <Container>
-      <h2>About Me</h2>
+      <h2>{content[locale].heading}</h2>
       <Content>
-        <p>
-          I am a dedicated Frontend Engineer with 3 years of experience. My most
-          recent company was Apply Digital, where I worked for over a year. I
-          specialize in Frontend development with React using the NextJS
-          framework. I have a background as IT Technician since 2016. In March
-          2020, I made a seamless transition into the world of Frontend
-          development. This ignited my passion for creating exceptional user
-          experiences.
-        </p>
-        <p>
-          My expertise lies in crafting robust and intuitive frontend solutions
-          using Next.js. I excel in building reusable components and
-          implementing the principles of atomic design. I have a strong command
-          over integrating headless CMS, with Contentful being my go-to choice.
-          I am continuously seeking growth and consistently explore new tools
-          and frameworks to enhance my development prowess. What sets me apart
-          in my field is my unwavering dedication to delivering top-notch
-          products to my clients
-        </p>
-        <p>
-          I bring a high level of enthusiasm and a customer-centric approach to
-          every project, ensuring that the end result not only meets but exceeds
-          expectations. I take pride in my ability to collaborate effectively
-          with cross-functional teams and assist others whenever needed. Looking
-          ahead, I have ambitious aspirations to evolve into a Full Stack
-          Developer. While my current focus lies in mastering Frontend
-          Development.
-        </p>
-        <p>Here are some of the technologies I've been working recently:</p>
+        {content[locale].body.map((paragraph, index) => (
+          <p key={index}>{paragraph.content}</p>
+        ))}
+        <p>{content[locale].listHeading}</p>
         <ul>
           <li>
             <FaHtml5 /> HTML
