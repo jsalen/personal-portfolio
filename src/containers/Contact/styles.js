@@ -10,15 +10,16 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   color: #645dd7;
-
+  
   & h2 {
     margin-bottom: 2.4rem;
     font-size: 3.2rem;
     font-weight: 700;
     text-align: center;
   }
-
+  
   & p {
+    max-width: 680px;
     margin-bottom: 2.4rem;
     font-size: 1.8rem;
     font-weight: 400;
