@@ -6,7 +6,7 @@ export const Container = styled.header`
   left: 0;
   right: 0;
   width: 100%;
-  min-height: 60px;
+  min-height: 80px;
   padding: 0 4rem;
   display: flex;
   justify-content: space-between;
