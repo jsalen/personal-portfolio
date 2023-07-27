@@ -32,7 +32,7 @@ export const Container = styled.section`
     display: grid;
     place-items: center;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 45%;
+    grid-template-columns: 1fr 30%;
     padding: 15rem 1.6rem;
   }
 `;
@@ -100,8 +100,8 @@ export const Description = styled.article`
 
   @media (min-width: 1024px) {
     & h1 {
-      font-size: 5rem;
-      line-height: 6.3rem;
+      font-size: 8rem;
+      line-height: 8rem;
     }
   }
 `;

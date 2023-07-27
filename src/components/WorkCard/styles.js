@@ -11,9 +11,9 @@ export const Card = styled.article`
   z-index: 1;
   transition: all 0.3s ease-in-out;
 
-  & h2 {
+  & h3 {
     position: relative;
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 1.5rem;

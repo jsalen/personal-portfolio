@@ -4,7 +4,7 @@ import { Card, Footer } from "./styles";
 export const WorkCard = ({ name, description, tools, links, image }) => {
   return (
     <Card image={image}>
-      <h2>{name}</h2>
+      <h3>{name}</h3>
       <p>{description}</p>
       <Footer>
         <ul>
