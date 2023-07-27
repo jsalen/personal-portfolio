@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.header`
   position: fixed;
@@ -15,4 +15,4 @@ export const Container = styled.header`
   background-color: #f8f7ff;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   z-index: 3;
-`
+`;

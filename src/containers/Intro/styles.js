@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components'
+import styled, { keyframes } from "styled-components";
 
 const rotateRightAnimation = keyframes`
   0% {
@@ -7,7 +7,7 @@ const rotateRightAnimation = keyframes`
   100% {
     transform: rotate(16deg);
   }
-`
+`;
 
 const rotateLeftAnimation = keyframes`
   0% {
@@ -16,7 +16,7 @@ const rotateLeftAnimation = keyframes`
   100% {
     transform: rotate(-16deg);
   }
-`
+`;
 
 export const Container = styled.section`
   width: 100%;
@@ -35,7 +35,7 @@ export const Container = styled.section`
     grid-template-columns: 1fr 45%;
     padding: 15rem 1.6rem;
   }
-`
+`;
 
 export const Figure = styled.figure`
   width: fit-content;
@@ -58,7 +58,7 @@ export const Figure = styled.figure`
       animation: none;
     }
   }
-`
+`;
 
 export const Description = styled.article`
   width: 100%;
@@ -104,4 +104,4 @@ export const Description = styled.article`
       line-height: 6.3rem;
     }
   }
-`
+`;

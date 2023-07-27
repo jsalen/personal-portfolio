@@ -1,9 +1,9 @@
-import styled, { css } from 'styled-components'
+import styled, { css } from "styled-components";
 
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
-`
+`;
 
 export const Link = styled.a`
   ${(props) =>
@@ -27,4 +27,4 @@ export const Link = styled.a`
   @media (min-width: 480px) {
     display: block;
   }
-`
+`;

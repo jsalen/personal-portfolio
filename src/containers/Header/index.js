@@ -1,6 +1,6 @@
-import { Navigation } from '../../components/Navigation'
+import { Navigation } from "../../components/Navigation";
 
-import { Container } from './styles'
+import { Container } from "./styles";
 
 export const Header = () => {
   return (
@@ -8,5 +8,5 @@ export const Header = () => {
       <p>salen.js</p>
       <Navigation />
     </Container>
-  )
-}
+  );
+};

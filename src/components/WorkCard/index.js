@@ -1,5 +1,5 @@
-import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
-import { Card, Footer } from './styles'
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { Card, Footer } from "./styles";
 
 export const WorkCard = ({ name, description, tools, links, image }) => {
   return (
@@ -13,14 +13,14 @@ export const WorkCard = ({ name, description, tools, links, image }) => {
           ))}
         </ul>
         <div>
-          <a href={links.github} target='_blank' rel='noreferrer'>
+          <a href={links.github} target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
-          <a href={links.demo} target='_blank' rel='noreferrer'>
+          <a href={links.demo} target="_blank" rel="noreferrer">
             <FaExternalLinkAlt />
           </a>
         </div>
       </Footer>
     </Card>
-  )
-}
+  );
+};
