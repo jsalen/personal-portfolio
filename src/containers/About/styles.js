@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  padding: 7rem 1.6rem;
+  padding: 12rem 1.6rem;
   background: rgb(100, 93, 215);
   background: linear-gradient(
     180deg,
@@ -16,6 +16,13 @@ export const Container = styled.section`
     font-size: 3.2rem;
     font-weight: 700;
     text-align: center;
+  }
+
+  @media (min-width: 1024px) {
+    & h2 {
+      font-size: 6.4rem;
+      line-height: 6rem;
+    }
   }
 `;
 

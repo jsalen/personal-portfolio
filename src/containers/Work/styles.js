@@ -2,15 +2,25 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  padding: 7rem 2rem;
+  padding: 12rem 2rem;
   background: #f8f7ff;
   color: #645dd7;
-
+  
   & h2 {
     font-size: 3.2rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 4.8rem;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 1140px;
+    margin: 0 auto;
+
+    & h2 {
+      font-size: 6.4rem;
+      line-height: 6rem;
+    }
   }
 `;
 
