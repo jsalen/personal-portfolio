@@ -46,15 +46,26 @@ export const Content = styled.article`
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    gap: 1.6rem;
   }
 
-  ul li {
+  li {
     min-width: 78px;
-    padding: 0.6rem 2rem;
-    margin: 1.2rem;
+    padding: 1.2rem 2rem;
+    font-weight: 300;
     color: #645dd7;
-    text-align: center;
-    background-color: #f8f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    background-color: #f8f8f8;
     border-radius: 20px;
+    border: 1px solid transparent;
+  }
+
+  li:nth-child(even) {
+    color: #f8f8f8;
+    background-color: #645dd7;
+    border: 1px solid #f8f8f8;
   }
 `;
