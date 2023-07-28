@@ -1,22 +1,20 @@
-import { Container, Description, Figure } from "./styles";
 import { Button } from "../../components/Button";
+import intro from "../../content/intro.json";
+import { Container, Description, Figure } from "./styles";
 
 const profilePic =
   "https://salen-portfolio.s3.us-east-2.amazonaws.com/profile.png";
 
-export const Intro = () => {
+export const Intro = ({ locale }) => {
   return (
     <Container>
       <Description>
-        <h1>React.js Front-end Developer</h1>
-        <p>
-          I build beautiful interfaces with the help of
-          React.js/Next.js/Typescript
-        </p>
-        <Button>Contact me!</Button>
+        <h1>{intro[locale].heading}</h1>
+        <p>{intro[locale].description}</p>
+        <Button>{intro[locale].button}</Button>
       </Description>
       <Figure>
-        <img src={profilePic} alt="Foto de perfil" />
+        <img src={profilePic} alt={intro[locale].imageDescription} />
       </Figure>
     </Container>
   );

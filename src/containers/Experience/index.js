@@ -1,4 +1,6 @@
+import React from "react";
 import { FaAlgolia, FaCss3Alt, FaHtml5, FaReact } from "react-icons/fa";
+import experienceContent from "../../content/experience.json";
 import { Container } from "./styles";
 import { DiJavascript } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -9,43 +11,52 @@ import {
   SiTypescript,
 } from "react-icons/si";
 
-export const Experience = () => {
+export const Experience = ({ locale }) => {
   return (
     <Container>
-      <h2>Work Experience</h2>
+      <h2>{experienceContent[locale].heading}</h2>
       <div>
         <ul>
+          {experienceContent[locale].experienceList.map((item, index) => {
+            const {
+              companyNameCopy,
+              companyLink,
+              companyName,
+              titleCopy,
+              title,
+              datesCopy,
+              dates,
+              responsabilitiesCopy,
+              responsabilities,
+            } = item;
+
+            return (
+              <React.Fragment key={`${index}-${companyName}`}>
+                <li>
+                  <span>{companyNameCopy}</span>
+                  <a href={companyLink} target="_blank" rel="noreferrer">
+                    {companyName}
+                  </a>
+                </li>
+                <li>
+                  <span>{titleCopy}</span> {title}
+                </li>
+                <li>
+                  <span>{datesCopy}</span> {dates}
+                </li>
+                <li>
+                  <span>{responsabilitiesCopy}</span>
+                  <ul>
+                    {responsabilities.map(({ description }, index) => (
+                      <li key={`${index}-${description}`}>{description}</li>
+                    ))}
+                  </ul>
+                </li>
+              </React.Fragment>
+            );
+          })}
           <li>
-            <span>Company name:</span>{" "}
-            <a href="https://www.applydigital.com/" taget="_blank">
-              Apply Digital
-            </a>
-          </li>
-          <li>
-            <span>Title:</span> Frontend Engineer
-          </li>
-          <li>
-            <span>Dates:</span> Mar 2022 - Jul 2023
-          </li>
-          <li>
-            <span>Responsabilities:</span>
-            <ul>
-              <li>
-                Developed and maintained web applications using HTML, CSS and
-                React
-              </li>
-              <li>
-                Implemented UIs given by Design team, ensuring that it met all
-                requirements (visually and functionally)
-              </li>
-              <li>
-                Worked with a headless CMS and a backend team to integrate UI
-                components with APIs and databases
-              </li>
-            </ul>
-          </li>
-          <li>
-            <span>Technologies Used:</span>
+            <span>{experienceContent[locale].technologiesSubheading}</span>
             <ul className="row">
               <li>
                 <FaHtml5 /> HTML

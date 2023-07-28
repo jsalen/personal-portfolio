@@ -1,14 +1,14 @@
 import { WorkCard } from "../../components/WorkCard";
 
-import { works } from "../../db";
+import workContent from "../../content/work.json";
 import { CardContainer, Container } from "./styles";
 
-export const Work = () => {
+export const Work = ({ locale }) => {
   return (
     <Container>
-      <h2>My Personal Projects</h2>
+      <h2>{workContent[locale].heading}</h2>
       <CardContainer>
-        {works.map((work) => (
+        {workContent[locale].works.map((work) => (
           <WorkCard
             key={work.id}
             name={work.name}

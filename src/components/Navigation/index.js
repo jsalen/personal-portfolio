@@ -1,9 +1,9 @@
 import { Button } from "../Button";
-
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import global from "../../content/global.json";
 import { Link, Nav } from "./styles";
 
-export const Navigation = () => {
+export const Navigation = ({ locale }) => {
   return (
     <Nav>
       <Link
@@ -22,7 +22,7 @@ export const Navigation = () => {
       >
         <FaGithub />
       </Link>
-      <Button>Send Email!</Button>
+      <Button>{global[locale].sendEmail}</Button>
     </Nav>
   );
 };
