@@ -53,6 +53,17 @@
           "demo": "https://react-todo-list-jsalen.vercel.app/"
         },
         "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/todo-list.png"
+      },
+      {
+        "id": 4,
+        "name": "Book Reading List",
+        "description": "Book Reading List made with Next.js, Typescript, TailwindCSS and local storage persistence.",
+        "tools": ["VSCode", "Next.js", "TypeScript", "TailwindCSS"],
+        "links": {
+          "github": "https://github.com/jsalen/book-reading-list",
+          "demo": "https://book-reading-list-7763.vercel.app/"
+        },
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/book-reading-list-cover.png"
       }
     ]
   },
@@ -110,6 +121,17 @@
           "demo": "https://react-todo-list-jsalen.vercel.app/"
         },
         "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/todo-list.png"
+      },
+      {
+        "id": 4,
+        "name": "Lista de Lectura de Libros",
+        "description": "Lista de libros, hecha con Next.js, Typescript, TailwindCSS y persistencia de datos en LocalStorage.",
+        "tools": ["VSCode", "Next.js", "TypeScript", "TailwindCSS"],
+        "links": {
+          "github": "https://github.com/jsalen/book-reading-list",
+          "demo": "https://book-reading-list-7763.vercel.app/"
+        },
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/book-reading-list-cover.png"
       }
     ]
   }
