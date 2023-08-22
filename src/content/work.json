@@ -64,6 +64,24 @@
           "demo": "https://book-reading-list-7763.vercel.app/"
         },
         "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/book-reading-list-cover.png"
+      },
+      {
+        "id": 5,
+        "name": "Rick and Morty API",
+        "description": "Rick and Morty API made with Next.js, Typescript, TailwindCSS, SHADCN/UI and local storage persistence.",
+        "tools": [
+          "VSCode",
+          "Next.js",
+          "TypeScript",
+          "TailwindCSS",
+          "SHADCN/UI",
+          "RSC"
+        ],
+        "links": {
+          "github": "https://github.com/jsalen/rick-morty-app",
+          "demo": "https://rick-morty-app-blush.vercel.app/"
+        },
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/rick_and_morty.png"
       }
     ]
   },
@@ -132,6 +150,24 @@
           "demo": "https://book-reading-list-7763.vercel.app/"
         },
         "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/book-reading-list-cover.png"
+      },
+      {
+        "id": 5,
+        "name": "Rick and Morty API",
+        "description": "Web de Rick and Morty hecha con Next.js, Typescript, TailwindCSS, SHADCN/UI y persistencia de datos en LocalStorage.",
+        "tools": [
+          "VSCode",
+          "Next.js",
+          "TypeScript",
+          "TailwindCSS",
+          "SHADCN/UI",
+          "RSC"
+        ],
+        "links": {
+          "github": "https://github.com/jsalen/rick-morty-app",
+          "demo": "https://rick-morty-app-blush.vercel.app/"
+        },
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/rick_and_morty.png"
       }
     ]
   }
