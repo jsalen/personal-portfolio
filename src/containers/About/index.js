@@ -11,6 +11,9 @@ import {
   SiContentful,
   SiJest,
   SiMongodb,
+  SiMongoose,
+  SiNestjs,
+  SiPostgresql,
   SiStyledcomponents,
   SiTypescript,
 } from "react-icons/si";
@@ -56,10 +59,21 @@ export const About = ({ locale }) => {
             <FaNodeJs /> Express
           </li>
           <li>
+            <SiNestjs /> Nest.js
+          </li>
+          <li>
             <SiMongodb /> MongoDB
           </li>
           <li>
-            <PiFileSqlBold /> PosgreSQL
+            <SiMongoose />
+            Mongoose
+          </li>
+          <li>
+            <SiPostgresql /> PosgreSQL
+          </li>
+          <li>
+            <PiFileSqlBold />
+            TypeORM
           </li>
           <li>
             <SiContentful /> Contentful CMS
