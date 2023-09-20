@@ -14,17 +14,6 @@
         "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/sales-inventory.png"
       },
       {
-        "id": 1,
-        "name": "Hacker News",
-        "description": "Computer and Science news extracted from HackerNews API provided by Algolia. User can filter news by category.",
-        "tools": ["VSCode", "React", "Redux Toolkit", "Axios", "TypeScript"],
-        "links": {
-          "github": "https://github.com/jsalen/hacker-news",
-          "demo": "https://kind-yonath-a25ce1.netlify.app"
-        },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/hn.png"
-      },
-      {
         "id": 2,
         "name": "Shop",
         "description": "Small eCommerce that handles a list of products, user can mark items as favorites, and purchase via PayPal.",
@@ -82,6 +71,55 @@
           "demo": "https://rick-morty-app-blush.vercel.app/"
         },
         "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/rick_and_morty.png"
+      },
+      {
+        "id": 1,
+        "name": "Hacker News",
+        "description": "Computer and Science news extracted from HackerNews API provided by Algolia. User can filter news by category.",
+        "tools": ["VSCode", "React", "Redux Toolkit", "Axios", "TypeScript"],
+        "links": {
+          "github": "https://github.com/jsalen/hacker-news",
+          "demo": "https://kind-yonath-a25ce1.netlify.app"
+        },
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/hn.png"
+      },
+      {
+        "id": 6,
+        "name": "Bazar Rest API",
+        "description": "Rest API built with Nest.js, Mongoose, MongoDB, Swagger and Docker",
+        "tools": [
+          "Nest.js",
+          "TypeScript",
+          "MongoDB",
+          "Mongoose",
+          "Swagger",
+          "VSCode",
+          "Postman",
+          "Docker",
+          "Docker Compose"
+        ],
+        "links": {
+          "github": "https://github.com/jsalen/bazar-api",
+          "demo": "https://bazar-api-production.up.railway.app/api/"
+        },
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/bazar-api.png"
+      },
+      {
+        "id": 7,
+        "name": "Bazar Marketplace",
+        "description": "Marketplace built with Next.js, Server Components, TypeScript, TailwindCSS",
+        "tools": [
+          "Next.js",
+          "TypeScript",
+          "Server Components",
+          "TailwindCSS",
+          "VSCode"
+        ],
+        "links": {
+          "github": "https://github.com/jsalen/bazar-frontend",
+          "demo": "https://bazar-frontend.vercel.app/"
+        },
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/bazar-frontend.png"
       }
     ]
   },
@@ -98,17 +136,6 @@
           "demo": "https://jsalen.github.io/sales-inventory-frontend/"
         },
         "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/sales-inventory.png"
-      },
-      {
-        "id": 1,
-        "name": "Hacker News",
-        "description": "Noticias informáticas y científicas extraídas de la API de HackerNews proporcionada por Algolia. El usuario puede filtrar las noticias por categoría y guardar en Local Storage sus noticias favoritas.",
-        "tools": ["VSCode", "React", "Redux Toolkit", "Axios", "TypeScript"],
-        "links": {
-          "github": "https://github.com/jsalen/hacker-news",
-          "demo": "https://kind-yonath-a25ce1.netlify.app"
-        },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/hn.png"
       },
       {
         "id": 2,
@@ -168,6 +195,38 @@
           "demo": "https://rick-morty-app-blush.vercel.app/"
         },
         "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/rick_and_morty.png"
+      },
+      {
+        "id": 1,
+        "name": "Hacker News",
+        "description": "Noticias informáticas y científicas extraídas de la API de HackerNews proporcionada por Algolia. El usuario puede filtrar las noticias por categoría y guardar en Local Storage sus noticias favoritas.",
+        "tools": ["VSCode", "React", "Redux Toolkit", "Axios", "TypeScript"],
+        "links": {
+          "github": "https://github.com/jsalen/hacker-news",
+          "demo": "https://kind-yonath-a25ce1.netlify.app"
+        },
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/hn.png"
+      },
+      {
+        "id": 6,
+        "name": "Bazar Rest API",
+        "description": "Rest API desarrollado con Nest.js, Mongoose, MongoDB, Swagger and Docker",
+        "tools": [
+          "Nest.js",
+          "TypeScript",
+          "MongoDB",
+          "Mongoose",
+          "Swagger",
+          "VSCode",
+          "Postman",
+          "Docker",
+          "Docker Compose"
+        ],
+        "links": {
+          "github": "https://github.com/jsalen/bazar-api",
+          "demo": "https://bazar-api-production.up.railway.app/api/"
+        },
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/bazar-api.png"
       }
     ]
   }
