@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.518f7960.css",
-    "main.js": "/personal-portfolio/static/js/main.ae91848b.js",
+    "main.js": "/personal-portfolio/static/js/main.dda3588b.js",
     "static/media/spain-flag.png": "/personal-portfolio/static/media/spain-flag.b2ef1223a25ef8d6d480.png",
     "index.html": "/personal-portfolio/index.html",
     "main.518f7960.css.map": "/personal-portfolio/static/css/main.518f7960.css.map",
-    "main.ae91848b.js.map": "/personal-portfolio/static/js/main.ae91848b.js.map"
+    "main.dda3588b.js.map": "/personal-portfolio/static/js/main.dda3588b.js.map"
   },
   "entrypoints": [
     "static/css/main.518f7960.css",
-    "static/js/main.ae91848b.js"
+    "static/js/main.dda3588b.js"
   ]
 }
