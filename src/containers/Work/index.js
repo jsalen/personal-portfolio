@@ -9,8 +9,11 @@ export const Work = ({ locale }) => {
       <h2>{workContent[locale].heading}</h2>
       <CardContainer>
         {workContent[locale].works
-          .map((work) => (
-            <WorkCard
+          .map((work) => {
+            if (work.status === "archived") return;
+
+            return (
+              <WorkCard
               key={work.id}
               name={work.name}
               description={work.description}
@@ -18,7 +21,8 @@ export const Work = ({ locale }) => {
               links={work.links}
               image={work.image}
             />
-          ))
+            )
+          })
           .reverse()}
       </CardContainer>
     </Container>

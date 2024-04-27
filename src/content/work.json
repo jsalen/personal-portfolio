@@ -11,7 +11,8 @@
           "github": "https://github.com/jsalen/sales-inventory-frontend",
           "demo": "https://jsalen.github.io/sales-inventory-frontend/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/sales-inventory.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/sales-inventory.png",
+        "status": "published"
       },
       {
         "id": 2,
@@ -30,7 +31,8 @@
           "github": "https://github.com/jsalen/react-ecommerce",
           "demo": "https://salen-store.vercel.app/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/salen-store.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/salen-store.png",
+        "status": "published"
       },
       {
         "id": 3,
@@ -41,7 +43,8 @@
           "github": "https://github.com/jsalen/react-todo-list",
           "demo": "https://react-todo-list-jsalen.vercel.app/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/todo-list.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/todo-list.png",
+        "status": "published"
       },
       {
         "id": 4,
@@ -52,7 +55,8 @@
           "github": "https://github.com/jsalen/book-reading-list",
           "demo": "https://book-reading-list-7763.vercel.app/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/book-reading-list-cover.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/book-reading-list-cover.png",
+        "status": "published"
       },
       {
         "id": 5,
@@ -70,7 +74,8 @@
           "github": "https://github.com/jsalen/rick-morty-app",
           "demo": "https://rick-morty-app-blush.vercel.app/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/rick_and_morty.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/rick_and_morty.png",
+        "status": "published"
       },
       {
         "id": 1,
@@ -81,7 +86,8 @@
           "github": "https://github.com/jsalen/hacker-news",
           "demo": "https://kind-yonath-a25ce1.netlify.app"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/hn.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/hn.png",
+        "status": "published"
       },
       {
         "id": 6,
@@ -102,7 +108,8 @@
           "github": "https://github.com/jsalen/bazar-api",
           "demo": "https://bazar-api-production.up.railway.app/api/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/bazar-api.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/bazar-api.png",
+        "status": "archived"
       },
       {
         "id": 7,
@@ -119,7 +126,8 @@
           "github": "https://github.com/jsalen/bazar-frontend",
           "demo": "https://bazar-frontend.vercel.app/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/bazar-frontend.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/bazar-frontend.png",
+        "status": "archived"
       }
     ]
   },
@@ -135,7 +143,8 @@
           "github": "https://github.com/jsalen/sales-inventory-frontend",
           "demo": "https://jsalen.github.io/sales-inventory-frontend/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/sales-inventory.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/sales-inventory.png",
+        "status": "published"
       },
       {
         "id": 2,
@@ -154,7 +163,8 @@
           "github": "https://github.com/jsalen/react-ecommerce",
           "demo": "https://salen-store.vercel.app/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/salen-store.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/salen-store.png",
+        "status": "published"
       },
       {
         "id": 3,
@@ -165,7 +175,8 @@
           "github": "https://github.com/jsalen/react-todo-list",
           "demo": "https://react-todo-list-jsalen.vercel.app/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/todo-list.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/todo-list.png",
+        "status": "published"
       },
       {
         "id": 4,
@@ -176,7 +187,8 @@
           "github": "https://github.com/jsalen/book-reading-list",
           "demo": "https://book-reading-list-7763.vercel.app/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/book-reading-list-cover.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/book-reading-list-cover.png",
+        "status": "published"
       },
       {
         "id": 5,
@@ -194,7 +206,8 @@
           "github": "https://github.com/jsalen/rick-morty-app",
           "demo": "https://rick-morty-app-blush.vercel.app/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/rick_and_morty.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/rick_and_morty.png",
+        "status": "published"
       },
       {
         "id": 1,
@@ -205,7 +218,8 @@
           "github": "https://github.com/jsalen/hacker-news",
           "demo": "https://kind-yonath-a25ce1.netlify.app"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/hn.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/hn.png",
+        "status": "published"
       },
       {
         "id": 6,
@@ -226,7 +240,8 @@
           "github": "https://github.com/jsalen/bazar-api",
           "demo": "https://bazar-api-production.up.railway.app/api/"
         },
-        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/bazar-api.png"
+        "image": "https://salen-portfolio.s3.us-east-2.amazonaws.com/bazar-api.png",
+        "status": "archived"
       }
     ]
   }
