@@ -10,7 +10,7 @@ export const Work = ({ locale }) => {
       <CardContainer>
         {workContent[locale].works
           .map((work) => {
-            if (work.status === "archived") return;
+            if (work.status === "archived") return null;
 
             return (
               <WorkCard
