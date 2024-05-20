@@ -52,7 +52,7 @@ export const works = [
     tools: ["VSCode", "JS", "React", "Context API", "Styled-Components"],
     links: {
       github: "https://github.com/jsalen/react-todo-list",
-      demo: "https://react-todo-list-jsalen.vercel.app/",
+      demo: "https://jsalen-todolist.vercel.app/",
     },
     image: "https://salen-portfolio.s3.us-east-2.amazonaws.com/todo-list.png",
   },
